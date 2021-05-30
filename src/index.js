@@ -28,6 +28,6 @@ app.all("*", (req, res) => {
   res.status(404).send({ error: "Page not found" });
 });
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3030;
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
